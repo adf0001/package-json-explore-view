@@ -1,8 +1,12 @@
-<div name='list' style='width:15em;
+<div name='list' class="tree-container" style='width:15em;
 		position:absolute;left:0px;top:0em;bottom:0px;
 		border-right:1px solid gray;
 		white-space:nowrap;overflow:auto;padding:0.5em;'>
 </div>
 <div name='splitter' style='position:absolute;top:0px;bottom:0px;left:16em;width:8px;z-index:1;'>
 </div>
-<div name='info' style='position:absolute;left:16em;top:0px;right:0px;bottom:0px;padding:0.5em;'></div>
+<div name='info' style='position:absolute;left:16em;top:0px;right:0px;bottom:0px;padding:0.5em;overflow:auto;'>
+	<div name="summary"></div>
+	<div name="showDetail" style="margin-top:1em;border-top:1px solid lightgrey;color:green;cursor:pointer;">[detail]</div>
+	<div name="detail" class="tree-container"></div>
+</div>

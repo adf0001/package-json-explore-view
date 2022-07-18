@@ -1,6 +1,6 @@
 {
   "name": "package-json-explore-view",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a package.json explore view",
   "main": "package-json-explore-view.js",
   "scripts": {
@@ -24,12 +24,13 @@
   "dependencies": {
     "bind-ui": "^1.0.14",
     "htm-tool-css": "^1.0.6",
+    "json-container-treeview": "^1.0.2",
     "package-json-to-html": "^1.0.1",
-    "package-json-treeview": "^1.0.5",
+    "package-json-treeview": "^1.0.9",
     "to-px-by-offset": "^1.0.1",
     "width-splitter": "^1.0.2"
   },
   "devDependencies": {
-    "package-json-data-set": "^1.0.2"
+    "package-json-data-set": "^1.0.3"
   }
 }
